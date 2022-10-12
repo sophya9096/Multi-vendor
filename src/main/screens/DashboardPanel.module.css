@@ -1,0 +1,38 @@
+.dashboardDash * a:hover {
+    color: var(--base) !important;
+    text-decoration: none;
+}
+.dashboardDash > a:hover {
+    text-decoration: none;
+    color: var;
+}
+.dashboardDash {
+    width: 100%;
+    margin-bottom: 30px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.list {
+    width: 100%;
+    background: #fff;
+}
+.listIcon {
+    color: var(--base);
+}
+.colapse {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.listItem {
+    color: gray !important;
+    transition: all 0.3s ease;
+}
+.listItem:hover .listItem,
+.listItem:hover {
+    background: rgb(235, 252, 252) !important;
+    color: var(--base) !important;
+}
+.secondaryList {
+    margin-top: 30px !important;
+}

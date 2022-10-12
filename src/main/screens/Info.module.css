@@ -1,0 +1,63 @@
+.categories {
+    text-align: center;
+}
+
+.categories h2 {
+    margin: 20px auto;
+    font-size: 24px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid lightgray;
+}
+.categories h2:nth-child(1) {
+    margin: 50px auto;
+}
+.categories__section > div,
+.categories__reputation > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.category,
+.reputation {
+    max-width: 350px;
+    cursor: pointer;
+    height: 200px;
+    width: 90%;
+    min-width: 220px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.category:hover {
+    opacity: 0.7;
+}
+.category h4,
+.reputation h4 {
+    color: #444;
+    margin-top: 10px;
+}
+.category__icon {
+    color: var(--base);
+    font-size: 36px !important;
+}
+.categories__reputation > div {
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.categories__reputation .reputation {
+    cursor: auto;
+    margin: 20px;
+    color: #666;
+}
+.reputation__icon {
+    color: var(--base);
+    font-size: 100px !important;
+}

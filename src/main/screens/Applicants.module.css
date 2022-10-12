@@ -1,0 +1,171 @@
+.applicants {
+    margin: auto;
+    width: 80%;
+    min-width: 300px;
+}
+.applicantsTop * {
+    text-align: left;
+}
+.applicantsTop {
+    margin: 50px auto;
+    padding: 20px 40px;
+    background: #fff;
+}
+.applicantsTop h2 {
+    color: var(--base);
+    font-size: 28px;
+}
+.applicantsTop h4 {
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #efefef;
+}
+.applicantsDetails {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.applicantsDetail {
+    margin-right: 15px;
+}
+.applicantsDetail h5 {
+    font-size: medium;
+}
+.applicantsDetail p {
+    font-size: small;
+    color: gray;
+}
+
+.applicantsDetails > button {
+    background: var(--base);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    padding: 7px 30px;
+    text-transform: inherit;
+}
+.applicantsDetails > button:hover {
+    background: var(--base);
+}
+.applicantsInfo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.applicantsInfoLeft {
+    max-width: 800px;
+    width: 100%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.description * {
+    text-align: left;
+}
+.description {
+    text-align: left;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    flex: 1;
+    height: 100%;
+}
+.description h3 {
+    font-size: 22px !important;
+    margin-bottom: 20px;
+}
+.description p {
+    color: gray;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 18px !important;
+}
+.applicantsInfoRight {
+    max-width: 450px;
+    width: 100%;
+    min-width: 250px;
+    margin-left: 10px;
+}
+.requirements *,
+.activity * {
+    text-align: left;
+}
+.requirements,
+.activity {
+    background: #fff;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.requirements > h3,
+.activity > h3 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px !important;
+}
+.requirements > div,
+.activity > div {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.requirement {
+    padding: 0 25px;
+}
+.requirement h4 {
+    color: var(--base);
+    font-size: 18px;
+    text-align: left;
+}
+.requirement p {
+    color: gray;
+    font-size: 14px;
+}
+.activity {
+    padding: 20px;
+    margin-top: 30px;
+}
+.activity > p {
+    color: gray;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-left: 28px;
+}
+.employer {
+    /* padding: 20px; */
+    background: white;
+    margin-top: 30px;
+}
+.employer > img {
+    margin-top: 20px;
+    width: 125px;
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid #efefef;
+}
+.employer > h4 {
+    font-size: 16px;
+    color: var(--base);
+    margin-top: 30px;
+}
+.employer > .employerDetails {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.employerDetail h5 {
+    color: var(--base);
+}
+.employerDetail p {
+    color: gray;
+}
+.employerDetail {
+    margin-left: 20px;
+}

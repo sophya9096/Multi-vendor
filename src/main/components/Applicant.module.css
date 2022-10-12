@@ -1,0 +1,94 @@
+.feedbacks {
+    padding: 30px;
+    margin: 40px 0;
+    width: 95%;
+    background: white;
+}
+.feedbacksHeading {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.headingIcon {
+    font-size: 48px !important;
+    color: var(--base);
+    margin-right: 10px;
+}
+.feedbacksHeading h2 {
+    font-size: x-large;
+    margin: 0;
+}
+
+.feedback {
+    text-align: left;
+    padding: 20px;
+    border-top: 5px solid lightgray;
+    padding-top: 30px;
+}
+.feedbackTop {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+}
+.feedbackTop img {
+    width: 60px;
+    object-fit: contain;
+}
+.feedbackTop .heading {
+    margin: 0 15px;
+}
+.feedbackTop .heading h3 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 16px !important;
+    color: var(--base);
+}
+.feedbackTop .heading p {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    color: gray;
+    font-size: 12px !important;
+}
+.feedbackTop > p {
+    padding: 5px;
+    color: #ffff;
+    font-size: 12px;
+    background: var(--base);
+    font-weight: 700;
+    border-radius: 5px;
+}
+.feedback * {
+    text-align: left;
+}
+.feedback .rating .star {
+    font-size: small;
+    color: var(--base);
+}
+.feedback > p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 5px;
+    color: gray;
+}
+.feedback > span {
+    text-align: left;
+    display: inline-block;
+    background: var(--base);
+    padding: 5px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 12px !important;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+.feedback > span:hover {
+    opacity: 1;
+}

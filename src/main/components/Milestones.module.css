@@ -1,0 +1,18 @@
+.milestones {
+}
+
+.milestonesHead {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+.milestonesHead button {
+    background: var(--base);
+    border: 1px solid var(--base);
+    color: #fff;
+}
+.milestonesHead button:hover {
+    color: var(--base);
+    background: #fff;
+    box-shadow: none;
+}

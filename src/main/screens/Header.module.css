@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.header button {
+    display: none;
+}
+.header a {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    color: gray;
+    transition: color 0.3s ease;
+}
+.header a:hover {
+    text-decoration: none;
+    color: var(--base);
+}
+.header__navLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__links {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.header__links a {
+    margin-right: 10px;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__logo img {
+    width: 25px;
+    object-fit: contain;
+}
+.header__logo h1 {
+    font-size: 24px;
+    margin-left: 5px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.header__navRight {
+    display: flex;
+    align-items: center;
+}
+.header__navRight a {
+    margin-left: 20px;
+}
+.header__navRight .icon {
+    margin-right: 5px;
+}
+.avatar {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain;
+    font-size: medium !important;
+    margin-right: 5px;
+}
+.header__navRight button {
+    background-color: var(--base);
+    border: 1px solid var(--base);
+    border-radius: 0;
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.header__navRight button:hover {
+    border: 1px solid var(--base);
+    background: transparent;
+    color: var(--base);
+}
+@media (max-width: 950px) {
+    .header__links {
+        display: none;
+    }
+}
+@media (max-width: 625px) {
+    .header__navRight {
+        display: none;
+    }
+    .header button {
+        display: block;
+        background-color: var(--base);
+        border: 1px solid var(--base);
+        border-radius: 0;
+        color: white;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+    .header button:hover {
+        border: 1px solid var(--base);
+        background: transparent;
+        color: var(--base);
+    }
+    .header__logo img {
+        display: none;
+    }
+    .header__logo button {
+        background: none;
+        border: none;
+        color: inherit;
+        padding: 5px;
+    }
+    .header__logo button:hover {
+        background: none;
+        color: inherit;
+        border: none;
+    }
+    .header__menu {
+        display: block;
+    }
+}

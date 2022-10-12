@@ -1,0 +1,64 @@
+.payment * {
+    text-align: left;
+}
+
+.payment {
+    margin: auto;
+    margin-top: 75px;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all 0.3s ease;
+}
+.dashboardPanel {
+    max-width: 300px;
+    width: 100%;
+    min-width: 250px;
+    margin-right: 30px;
+}
+.paymentMethods {
+    flex: 1;
+    width: 100%;
+    min-width: 250px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.paymentMethods h3 {
+    color: gray;
+    font-size: 22px !important;
+}
+.paymentMethods p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--base);
+    margin-bottom: 10px;
+}
+.btns button {
+    padding: 5px;
+    margin-right: 20px;
+    text-transform: inherit;
+    color: gray;
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+    border-radius: 0;
+}
+.paymentMethods label {
+    color: var(--base);
+    margin-bottom: 5px;
+}
+.paymentMethods input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.submit,
+.submit:hover {
+    background: var(--base) !important;
+    color: #fff !important;
+}

@@ -1,0 +1,12 @@
+.heading {
+    margin: 40px auto;
+    color: gray;
+    font-size: xx-large;
+}
+
+.hire__cards > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

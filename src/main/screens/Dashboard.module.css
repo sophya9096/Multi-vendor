@@ -1,0 +1,62 @@
+.dashboard * {
+    text-align: left;
+}
+
+.dashboard {
+    margin: auto;
+    margin-top: 75px;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all 0.3s ease;
+}
+.dashboardPanel {
+    max-width: 300px;
+    width: 100%;
+    min-width: 250px;
+    margin-right: 30px;
+}
+.dashboardResult {
+    flex: 1;
+    width: 100%;
+    min-width: 250px;
+}
+.dashboardResult h1 {
+    /* margin-bottom: 40px; */
+}
+.counts {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.count {
+    width: 200px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+}
+.count > h3 {
+    font-weight: 400;
+    color: var(--base);
+    font-size: 36px !important;
+}
+.recent {
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+.recentIcon {
+    font-size: 85px !important;
+    color: var(--base);
+}
+.recent h5,
+.recent h4 {
+    color: gray;
+    margin: 20px 0;
+    text-align: center;
+}

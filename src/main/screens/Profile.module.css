@@ -1,0 +1,328 @@
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.profile {
+    text-align: left;
+}
+.profile * {
+    text-align: left;
+}
+.profile {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.tabs button {
+    background: transparent;
+    border: none;
+    color: gray;
+    font-size: small;
+    transition: all 0.2s ease;
+}
+.info {
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+}
+.infoTop {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.infoTop p {
+    color: gray;
+    margin: 0;
+}
+.infoTop > img {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+.infoDiscription {
+    margin-left: 15px;
+    flex: 1;
+}
+.infoDiscription h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: var(--base);
+    margin-bottom: 0;
+}
+.infoDiscription p {
+    margin: 5px 0;
+}
+
+.rating .star {
+    font-size: 18px;
+    color: var(--base);
+}
+.location {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.locationIcon {
+    color: var(--base);
+    font-size: 18px !important;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.buttons button {
+    background: var(--base);
+    font-size: 12px !important;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+.buttons button:nth-child(1):hover {
+    background-color: darkcyan;
+}
+.buttons button:nth-child(2) {
+    background-color: red;
+}
+.buttons button:nth-child(2):hover {
+    background: crimson;
+}
+.infoBottom {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.infoBottom * {
+    text-align: center;
+}
+.infoBottom p {
+    color: gray;
+}
+.skillsRequire {
+    display: flex;
+}
+.skillsRequire span {
+    background: var(--base);
+    color: #fff;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.ProfileDiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileDivLeft {
+    text-align: left;
+    padding: 50px;
+    background-color: #fff;
+    flex: 0.55;
+}
+.profileDivLeft * {
+    text-align: left;
+}
+.profileDivLeft p {
+    color: gray;
+    font-size: large;
+    line-height: 30px;
+}
+.skillsHeading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.work h3 {
+    font-size: 18px !important;
+}
+.work h3 span {
+    font-size: 12px;
+    color: gray;
+}
+.profileDivRight {
+    flex: 0.4;
+}
+.work {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #fff;
+}
+.work:nth-child(2) {
+    margin-top: 30px;
+}
+.work:nth-child(3) {
+    margin-top: 30px;
+}
+
+.workDone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: gray;
+}
+.workDone .workDetail * {
+    text-align: left;
+}
+.workDone .workDetail p:nth-child(1) {
+    color: var(--base);
+    margin-bottom: -5px;
+}
+
+.history,
+.education {
+    width: 100%;
+    color: gray;
+}
+.history h4,
+.education h4 {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.history h4::before,
+.history h4::after,
+.education h4::before,
+.education h4::after {
+    content: "";
+    background: lightgray;
+    height: 2px;
+    width: 25%;
+    display: inline-block;
+}
+.history h5,
+.education h5 {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: -2px;
+    margin-top: 10px;
+}
+.history p,
+.education p {
+    margin-bottom: -3px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* feedbacks */
+
+.feedbacks {
+    padding: 30px;
+    margin: 40px 0;
+    width: 70%;
+    background: white;
+}
+.feedback {
+    padding: 20px;
+    border-top: 5px solid #efefef;
+    padding-top: 30px;
+}
+.feedbackTop {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+}
+.feedbackTop img {
+    width: 60px;
+    object-fit: contain;
+}
+.feedbackTop .heading {
+    margin: 0 15px;
+}
+.feedbackTop .heading h3 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 16px !important;
+}
+.feedbackTop .heading p {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    color: gray;
+    font-size: 12px !important;
+}
+.feedbackTop > p {
+    padding: 5px;
+    color: #ffff;
+    font-size: 12px;
+    background: var(--base);
+    font-weight: 700;
+    border-radius: 5px;
+}
+.feedback * {
+    text-align: left;
+}
+.feedback .rating {
+    margin: 15px 0;
+}
+.feedback > p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 5px;
+    color: gray;
+}
+
+/* portfolio */
+
+.portfolio {
+    width: 100%;
+    margin: 40px 0;
+    padding: 30px;
+    background: #fff;
+}
+.portfolioImages {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolioImages img {
+    margin: 10px;
+    width: 250px;
+    cursor: pointer;
+    object-fit: contain;
+}
+/* .figure img {
+    width: auto;
+    top: 75px;
+    position: fixed;
+    max-width: 100%;
+    height: 90vh;
+    display: block;
+}
+.figure button {
+    padding: 10px 20px;
+    border-radius: 50%;
+    background: lightgray;
+    color: #555;
+    right: 300px;
+    top: 67px;
+    position: fixed;
+    font-size: 24px;
+    cursor: pointer;
+}
+.figure button:hover {
+    background: lightgray;
+} */

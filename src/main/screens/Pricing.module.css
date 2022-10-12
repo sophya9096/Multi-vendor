@@ -1,0 +1,43 @@
+.packages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: gray;
+}
+.pricing h1 {
+    color: gray;
+    margin: 50px auto;
+}
+.package {
+    min-width: 400px;
+    background: #fff;
+    padding: 30px;
+    margin: 20px;
+}
+.packageTop h3 {
+    font-size: 20px !important;
+}
+.packageTop h2 {
+    margin: 15px auto;
+    color: var(--base);
+    font-size: 36px;
+    font-weight: 700;
+}
+.packageBottom {
+    margin-top: 20px;
+}
+.packageBottom button {
+    width: 100%;
+    color: #fff;
+    background: var(--base);
+    border: 1px solid var(--base);
+}
+.packageBottom button:hover {
+    background-color: #fff;
+    color: var(--base);
+}
+.packageBottom p span {
+    color: var(--base);
+}

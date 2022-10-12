@@ -1,0 +1,145 @@
+.banner {
+    min-height: 80vh;
+    width: 100%;
+    background: url("https://www.utopiafiber.com/wp-content/uploads/2020/05/your-office.png") center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner h1 {
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+    font-size: calc((2vw + 20px));
+}
+.banner h2 {
+    text-align: center;
+    font-size: calc((1vw + 15px));
+}
+
+.banner__search {
+    display: flex;
+    background: rgb(255 255 255 / 20%);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.banner__search input {
+    width: 50vw;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+}
+.banner__search > button {
+    background-color: var(--base);
+    border: 1px solid var(--base);
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 500;
+
+    border-radius: 0;
+    padding: 10px 30px;
+}
+.banner__search > button:hover {
+    border: 1px solid white;
+    background: white;
+    color: var(--base);
+}
+.banner__discription {
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.freelancer,
+.job,
+.proposal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+h3 {
+    font-size: 24px !important;
+}
+.freelancer > button,
+.job > button,
+.proposal > button {
+    padding: 30px;
+    background: #fff;
+    transition: opacity 0.3s ease;
+}
+.freelancer > button:hover,
+.job > button:hover,
+.proposal > button:hover {
+    opacity: 0.9;
+    background: #fff;
+}
+.icon {
+    font-size: 45px !important;
+}
+.categories {
+    text-align: center;
+}
+.categories h2 {
+    margin: 50px auto;
+    font-size: 24px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid lightgray;
+}
+.categories__section > div,
+.categories__reputation > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.category,
+.reputation {
+    max-width: 350px;
+    height: 200px;
+    width: 90%;
+    min-width: 220px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.category:hover {
+    opacity: 0.7;
+}
+.category h4,
+.reputation h4 {
+    color: #444;
+    margin-top: 10px;
+}
+.category__icon {
+    color: var(--base);
+    font-size: 36px !important;
+}
+.categories__reputation > div {
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.categories__reputation .reputation {
+    cursor: auto;
+    margin: 20px;
+    color: #666;
+}
+.reputation__icon {
+    font-size: 50px;
+}

@@ -1,0 +1,25 @@
+.dataGrid {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.MuiDataGrid-cell,
+.MuiDataGrid-cellLeft {
+    color: var(--base) !important;
+}
+
+element.style {
+    min-width: 500px;
+    max-width: 500px;
+    line-height: 51px;
+    min-height: 52px;
+    max-height: 52px;
+    color: var(--base) !important;
+}
+.free {
+    width: 500px;
+    height: 500px;
+    cursor: pointer !important;
+    color: aqua !important;
+}

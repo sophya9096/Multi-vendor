@@ -1,0 +1,87 @@
+.job {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    color: gray;
+}
+
+.top *,
+.center *,
+.bottom * {
+    text-align: left;
+}
+.top h3 {
+    font-size: 28px !important;
+    color: var(--base);
+    margin-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.top h4 {
+    font-size: 18px !important;
+}
+.top h5 {
+    color: var(--base);
+    font-size: 16px !important;
+}
+.top h6 {
+    font-size: 14px !important;
+}
+.top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+.center,
+.bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+.center p {
+    line-height: 30px;
+}
+.center .skillsRequire {
+    display: flex;
+}
+.skillsRequire span {
+    background: var(--base);
+    color: #fff;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.bottom {
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+}
+.bottom img {
+    width: 75px;
+}
+.employer {
+    margin-left: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom h4 {
+    font-size: 16px;
+    color: var(--base);
+}
+.bottom .icon {
+    font-size: 14px;
+    color: var(--base);
+}
+.applicants p {
+    text-align: center;
+}
+.applicants p:nth-child(1) {
+    color: var(--base);
+    margin-bottom: -0px;
+    font-weight: 700;
+    font-size: 24px;
+}

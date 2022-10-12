@@ -1,0 +1,212 @@
+.chat {
+    min-width: 800px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+}
+
+/* chatlist */
+.chatList {
+    min-width: 290px;
+    border-right: 2px solid #efefef;
+    flex: 0.3;
+    overflow: hidden;
+}
+
+.chatList > h3 {
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px !important;
+    color: gray;
+    border-bottom: 2px solid #efefef;
+}
+.search {
+    width: 82%;
+    display: flex;
+    background: #efefef;
+    margin: 15px auto;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.chatList input {
+    flex: 1;
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.contacts {
+    width: 100%;
+    overflow-y: scroll;
+    height: 70vh;
+    border-top: 1px solid #efefef;
+}
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    border-bottom: 1px solid #efefef;
+}
+.contact:hover {
+    background: #efefef;
+}
+.contact > p {
+    padding: 2px 5px;
+    background: var(--base);
+    border-radius: 50%;
+    color: #fff;
+}
+.contact > img {
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.contactDetail {
+    color: gray;
+}
+.contactDetail h4 {
+    font-size: 18px !important;
+    margin-bottom: 0;
+}
+.contactDetail p {
+    font-size: 14px !important;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+.contactDetail span {
+    font-size: 13px !important;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* .chatBox */
+
+.chatBox {
+    position: relative;
+    flex: 0.7;
+    min-width: 300px;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatBoxHead {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #efefef;
+    padding: 10px;
+    width: 100%;
+}
+.chatBoxHead img {
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.chatBoxName {
+    margin-left: 10px;
+    color: gray;
+}
+.chatBoxName h5 {
+    font-size: 18px;
+    margin: 0;
+}
+.chatBoxName p {
+    font-size: 18px;
+    margin: 0;
+    font-size: 12px;
+}
+.messages {
+    height: auto;
+    flex: 1;
+    overflow: scroll;
+    scrollbar-width: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.message,
+.messenger {
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+    margin: 20px;
+}
+.messenger {
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.message img {
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.messenger img {
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.message .chatBoxName p {
+    background-color: #efefef;
+    color: gray;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.messenger .chatBoxName p {
+    background-color: var(--base);
+    color: #fff;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.message .chatBoxName span {
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+}
+.messenger .chatBoxName span {
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+}
+.sendMessage {
+    border-top: 2px solid #efefef;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sendMessage input {
+    padding: 15px;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.sendMessage button {
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    background: var(--base);
+    color: #fff;
+}
+.sendMessage button:hover {
+    border-radius: 0;
+    background: var(--base);
+}

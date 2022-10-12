@@ -1,0 +1,91 @@
+.feature {
+    flex: 1;
+    width: 100%;
+    min-width: 250px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.feature h3 {
+    color: gray;
+    font-size: 28px !important;
+    margin-bottom: 20px;
+}
+
+.select {
+    padding: 5px 15px;
+    border: 1px solid lightgray;
+    color: #555;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    display: block;
+}
+.select:focus {
+    border-radius: 0;
+    border: 1px solid var(--base);
+    outline: 1px solid var(--base);
+}
+.feature p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.4);
+    color: var(--base);
+    margin-bottom: 10px;
+}
+.btns button {
+    padding: 5px;
+    margin-right: 20px;
+    text-transform: inherit;
+    color: gray;
+    background: #efefef;
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+    border-radius: 0;
+}
+.feature label {
+    font-size: 16px;
+    color: var(--base);
+    text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.4);
+    margin-bottom: 5px;
+}
+.feature input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.submit,
+.submit:hover {
+    background: var(--base) !important;
+    color: #fff !important;
+}
+
+/* profile Feature */
+
+.profileHead {
+    display: flex;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.profileHead > .profileImg {
+    width: 60px !important;
+    height: 60px !important;
+}
+.profileHeadName {
+    margin-left: 10px;
+}
+.profileHeadName a {
+    color: var(--base) !important;
+    font-size: 24px;
+    font-weight: 600;
+}
+.profileHeadName p {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}

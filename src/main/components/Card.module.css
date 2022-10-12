@@ -1,0 +1,64 @@
+.card {
+    margin: 20px;
+    background: #fff;
+    color: gray;
+    padding: 20px;
+}
+.card__center,
+.card__bottom,
+.card__top {
+    max-width: 300px;
+    margin: auto;
+}
+.person {
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    /* background-color: lightgray; */
+}
+.card__top {
+    margin: 20px auto !important;
+}
+.card__top .location {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+.locationIcon {
+    font-size: 18px;
+}
+.card__top h2 {
+    font-size: 22px;
+    color: var(--base);
+}
+.rating .star {
+    color: var(--base);
+}
+
+.card__center > h3 {
+    color: var(--base);
+    font-size: 16px !important;
+}
+.card__center > h4 {
+    margin-top: 15px;
+    color: var(--base);
+    font-size: 14px !important;
+}
+.card__bottom {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.card__bottom > div {
+    font-size: 14px;
+}
+.card__bottom > div > p:nth-child(1) {
+    margin-bottom: -1px;
+    color: var(--base);
+}
